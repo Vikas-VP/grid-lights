@@ -1,0 +1,30 @@
+#main-container {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#grid-wrapper {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 16px;
+  padding: 8px;
+}
+
+#cell {
+  width: 150px;
+  height: 150px;
+  background: transparent;
+  box-shadow: none;
+}
+
+#cell-activated {
+  background: green;
+  width: 150px;
+  height: 150px;
+}
